@@ -1,21 +1,75 @@
-<<<<<<< HEAD
-# React + Vite
+📘 Tailwind Learning Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly and interactive learning hub for exploring Tailwind CSS concepts with clean, ready-to-use examples.
+This project includes detailed examples of Typography, Backgrounds, Borders, Spacing, Layout, Flexbox & Grid, Animations, Tables, and more—built with React + Vite + Tailwind CSS.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+✔ Clean and organized Tailwind examples
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔ Categorized topics (Typography, Backgrounds, Borders, Layout...)
 
-## Expanding the ESLint configuration
+✔ React components for each topic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# tailwind-learning-hub
-A beginner-friendly Tailwind CSS learning hub with components, examples, topics, and a complete "Getting Started" guide for new developers.
->>>>>>> 084e28157a55af7183421a10bc85e86072175736
+✔ Responsive UI
+
+✔ Easy for students to learn visually
+
+✔ Ideal for revising Tailwind classes
+
+
+📁 Folder Structure
+tailwind-learning-hub/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── Navigation.jsx
+│   │   ├── GettingStarted.jsx
+│   │   ├── topics/
+│   │   │   ├── Typography.jsx
+│   │   │   ├── Backgrounds.jsx
+│   │   │   ├── Borders.jsx
+│   │   │   ├── Spacing.jsx
+│   │   │   ├── Layout.jsx
+│   │   │   ├── FlexboxGrid.jsx
+│   │   │   ├── Transitions.jsx
+│   │   │   ├── TransformAnimation.jsx
+│   │   │   ├── Tables.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│── index.html
+│── package.json
+│── tailwind.config.js
+│── postcss.config.js
+│── README.md
+
+🛠 Installation
+1. Clone the repo
+git clone https://github.com/SaloniMishra25/tailwind-learning-hub.git
+
+2. Go inside project
+cd tailwind-learning-hub
+
+3. Install dependencies
+npm install
+
+4. Start project
+npm run dev
+
+📚 Topics Covered
+Getting Started with Tailwind
+Typography
+Backgrounds
+Borders
+Spacing
+Layout
+Flexbox & Grid
+Transitions
+Transform Animations
+Tables
+
+
+👩‍💻 Contributors 
+Saloni Mishra – Creator & Developer
+Contributions welcome via pull requests!
